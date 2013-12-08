@@ -1,0 +1,86 @@
+﻿生成启动时间为 2013/12/8 21:53:58。
+     1>项目“C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\svd\svd.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\svd" /IC:\Users\mileyan\Documents\include\cpp\src /IC:\Users\mileyan\Documents\include\cpp\tests /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\include\cpp\src\alglibinternal.cpp ..\..\..\..\include\cpp\src\alglibmisc.cpp ..\..\..\..\include\cpp\src\ap.cpp ..\..\..\..\include\cpp\src\dataanalysis.cpp ..\..\..\..\include\cpp\src\diffequations.cpp ..\..\..\..\include\cpp\src\fasttransforms.cpp ..\..\..\..\include\cpp\src\integration.cpp ..\..\..\..\include\cpp\src\interpolation.cpp ..\..\..\..\include\cpp\src\linalg.cpp ..\..\..\..\include\cpp\src\optimization.cpp ..\..\..\..\include\cpp\src\solvers.cpp ..\..\..\..\include\cpp\src\specialfunctions.cpp ..\..\..\..\include\cpp\src\statistics.cpp caculate_metrix.cpp devide_metrix.cpp first_svd.cpp multiMetrixCpu.cpp print_metrix.cpp test_alglib.cpp
+         test_alglib.cpp
+     1>c:\users\mileyan\documents\visual studio 2012\projects\svd\svd\test_alglib.cpp(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+         print_metrix.cpp
+         multiMetrixCpu.cpp
+         first_svd.cpp
+     1>c:\users\mileyan\documents\visual studio 2012\projects\svd\svd\first_svd.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+         devide_metrix.cpp
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\visual studio 2012\projects\svd\svd\devide_metrix.cpp(237): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+         caculate_metrix.cpp
+     1>c:\users\mileyan\documents\visual studio 2012\projects\svd\svd\caculate_metrix.cpp(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+         statistics.cpp
+     1>c:\users\mileyan\documents\include\cpp\src\specialfunctions.h(865): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         specialfunctions.cpp
+     1>c:\users\mileyan\documents\include\cpp\src\specialfunctions.h(865): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\specialfunctions.cpp(883): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\specialfunctions.cpp(6583): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         solvers.cpp
+         optimization.cpp
+         linalg.cpp
+         interpolation.cpp
+     1>c:\users\mileyan\documents\include\cpp\src\specialfunctions.h(865): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\integration.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         integration.cpp
+     1>c:\users\mileyan\documents\include\cpp\src\integration.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\integration.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\specialfunctions.h(865): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\integration.cpp(681): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\integration.cpp(1613): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         fasttransforms.cpp
+         diffequations.cpp
+         dataanalysis.cpp
+     1>c:\users\mileyan\documents\include\cpp\src\specialfunctions.h(865): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\dataanalysis.h(5570): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\dataanalysis.cpp(9154): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\mileyan\documents\include\cpp\src\dataanalysis.cpp(34257): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ap.cpp
+         alglibmisc.cpp
+         alglibinternal.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\Debug\svd.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\mileyan\Documents\include\cpp\tests /LIBPATH:C:\Users\mileyan\Documents\include\cpp\src /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\Debug\svd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\Debug\svd.lib" /MACHINE:X86 Debug\main.cu.obj
+         Debug\secular_equation.cu.obj
+         Debug\alglibinternal.obj
+         Debug\alglibmisc.obj
+         Debug\ap.obj
+         Debug\dataanalysis.obj
+         Debug\diffequations.obj
+         Debug\fasttransforms.obj
+         Debug\integration.obj
+         Debug\interpolation.obj
+         Debug\linalg.obj
+         Debug\optimization.obj
+         Debug\solvers.obj
+         Debug\specialfunctions.obj
+         Debug\statistics.obj
+         Debug\caculate_metrix.obj
+         Debug\devide_metrix.obj
+         Debug\first_svd.obj
+         Debug\multiMetrixCpu.obj
+         Debug\print_metrix.obj
+         Debug\test_alglib.obj
+         svd.vcxproj -> C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\Debug\svd.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+         已复制         2 个文件。
+     1>已完成生成项目“C:\Users\mileyan\Documents\Visual Studio 2012\Projects\svd\svd\svd.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.56
